@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - HTML & HTML5</title>
+</head>
+
+<body>
+    <!-- 
+        Cú pháp thẻ HTML:
+        <tên_thẻ> Nội dung của thẻ </tên_thẻ>
+        - Tên thẻ gần với ngôn ngữ tự nhiên, mỗi một thẻ sẽ có một mục đích sử dụng khác nhau
+     -->
+    <h1>1. Thẻ định dạng văn bản</h1>
+    <!-- Từ h1 -> h6
+        h- Header(Tiêu đề) font-size lớn, in đậm
+    -->
+    <h2>1.1. Thẻ hiển thị đoạn văn bản</h2>
+    <p>Paragraph - Đoạn văn bản</p>
+    <p>Bold: <b>In đậm</b></p>
+    <p>Italic: <i>In nghiêng</i></p>
+    <p>Underline: <u>Gạch chân</u></p>
+    <b>In đậm</b>
+    <p>Break (xuống dòng) <br> trong đoạn văn bản</p>
+    <!--
+        Cú pháp thẻ html dạng tổng quát
+        <tên_thẻ thuộc_tính>
+            Nội dung của thẻ
+    </tên thẻ>
+    -->
+    <font color="blue" size="30" i18n="en">Học HTML</font>
+    <!-- Horizoltal Line (Gạch ngang) -->
+    <hr size="5px" width="3000px" color="red" align="right" />
+    <hr size="5px" width="3000px" color="red" align="right" />
+    <hr size="5px" width="3000px" color="red" align="right" />
+    <p>Đường kẻ ngang </p>
+    <big>Hiển thị đoạn văn bản lớn hơn mặc định</big>
+    <small>Hiển thị đoạn văn bản nhỏ hơn mặc định</small>
+    <p>Pi * R<sup>2</sup></p>
+    <p>H<sub>2</sub>0</p>
+    <em>Nghiêng</em>
+    <strong>In đậm</strong>
+    <h2>1.2. Thẻ tạo danh sách</h2>
+    <h3>1.2.1. Danh sách không sắp xếp</h3>
+    <h4>List NYC: </h4>
+    <ul>
+        <!--ul - Uonrdered List-->
+        <li>Nguyễn Vũ Trà My</li>
+        <!--li - List Item-->
+        <li>Nguyễn Phương Trinh</li>
+        <li>Nguyễn Khánh Huyền</li>
+        <li>Phạm Hạnh</li>
+        <li>Nguyễn Khánh Linh</li>
+        <li>Nguyễn Ánh Tuyết</li>
+        <li>Nguyễn Hoàng Lan Anh</li>
+        <li>Lê Thùy Chi</li>
+    </ul>
+    <h3>1.2.2. Danh sách sắp xếp</h3>
+    <h4>GirlFriends</h4>
+    <ol><!--ol - Ordered List-->
+        <li>I don't have girlfriends=((</li>
+    </ol>
+    <h1>2. Thẻ liên kết(Thẻ link)</h1>
+    <!-- Hỗ trợ liên kết đến một tài nguyên khác
+    thông qua link (Đường dẫn):
+    - Đường dẫn tuyệt đối
+    - Đường dẫn tương đối
+-->
+<a href="about.html">
+    About Page - Tuyệt đối </a>
+    <a href="./about.html">About Page - Tương đối</a>
+    <a href="https://www.google.com/?hl=vi">Go to Google</a>
+    <a href="mailto:daqitv@dnu.edu.vn">Send mail</a>
+    <a href="tel:+84325161560">Call 0325161560</a>
+    <h1>3. Các thẻ đa phương tiện</h1>
+    <h2>3.1 Hình ảnh</h2>
+    <!-- src Source Tài nguyên-->
+    <img 
+    width="800"
+    height="800"
+    src="./assets/images/logo-dnu.png"
+    alt="Đoạn text hiển thị khi lỗi ảnh">
+</body>
+</html>
